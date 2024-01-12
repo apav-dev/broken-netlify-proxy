@@ -1,0 +1,14 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "netlify-plugin-cypress"
+
+[[redirects]]
+  from = "/blogs/*"
+  to = "https://tensely-blank-kite.pgsdemo.com/:splat"
+  status = 200
+  force = true
+  headers = {Host = "https://tensely-blank-kite.pgsdemo.com/", Access-Control-Allow-Origin = "*" }
+
