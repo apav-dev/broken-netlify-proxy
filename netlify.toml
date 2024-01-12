@@ -7,8 +7,8 @@
 
 [[redirects]]
   from = "/blogs/*"
-  to = "https://tensely-blank-kite.pgsdemo.com/:splat"
+  to = "https://norouting-tensely--blank--kite-pgsdemo-com.preview.pagescdn.com/:splat"
   status = 200
   force = true
-  headers = {Host = "https://tensely-blank-kite.pgsdemo.com/", Access-Control-Allow-Origin = "*" }
+  headers = {Host = "https://norouting-tensely--blank--kite-pgsdemo-com.preview.pagescdn.com/", Access-Control-Allow-Origin = "*" }
 
